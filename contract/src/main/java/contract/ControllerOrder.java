@@ -1,15 +1,19 @@
 package contract;
 
-/**
- * The Enum ControllerOrder.
- *
- * @author Jean-Aymeric Diet
- */
+/* The Enum ControllerOrder.*/
 public enum ControllerOrder {
 
-	/** The English. */
-	English, /** The French. */
-	Francais, /** The Deutch. */
-	Deutsch, /** The Indonesia. */
-	Indonesia
+	
+	English,    /* The English. */
+    Francais,   /* The French. */
+    Deutsch,    /* The Deutch. */
+    Indonesia,  /* The Indonesia. */
+	
+	UP,         //Haut
+	DOWN,       //Bas
+	RIGHT,      //Droite
+	LEFT,       //Gauche
+	NOPE,       //Rien
+	SHOOT       //Tirer
+	
 }

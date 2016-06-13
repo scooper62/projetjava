@@ -64,23 +64,31 @@ public class Controller implements IController {
 	 *
 	 * @see contract.IController#orderPerform(contract.ControllerOrder)
 	 */
-	public void orderPerform(final ControllerOrder controllerOrder) {
-		switch (controllerOrder) {
-			case English:
-				this.model.loadMessage("GB");
-				break;
-			case Francais:
-				this.model.loadMessage("FR");
-				break;
-			case Deutsch:
-				this.model.loadMessage("DE");
-				break;
-			case Indonesia:
-				this.model.loadMessage("ID");
-				break;
 
+		public void orderPerform(final ControllerOrder controllerOrder) {
+		switch (controllerOrder) {
+			case UP:
+				//this.model.moveUp;
+				break;
+			case DOWN:
+				//this.model.moveDown;
+				break;
+			case RIGHT:
+				//this.model.moveRight;
+				break;
+			case LEFT:
+				//this.model.moveLeft;
+				break;
+			case SHOOT:
+			    //this.model.shoot;
+			    break;
+		    case NOPE:
+		       // this.model.rien;
+		        break;
+		        
 			default:
 				break;
+	 
 		}
 	}
 
