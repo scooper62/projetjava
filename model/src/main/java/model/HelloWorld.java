@@ -1,10 +1,6 @@
 package model;
 
-/**
- * The Class HelloWorld.
- *
- * @author Jean-Aymeric Diet
- */
+
 class HelloWorld extends Entity {
 
 	/** The id. */
