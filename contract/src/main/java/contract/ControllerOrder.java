@@ -6,7 +6,7 @@ public enum ControllerOrder {
 	
 	English,    /* The English. */
     Francais,   /* The French. */
-    Deutsch,    /* The Deutch. */
+    Deutsch,    /* The Deutsch. */
     Indonesia,  /* The Indonesia. */
 	
 	UP,         //Haut
