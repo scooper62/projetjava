@@ -6,11 +6,7 @@ import java.util.Observer;
 
 import javax.swing.JPanel;
 
-/**
- * The Class ViewPanel.
- *
- * @author Jean-Aymeric Diet
- */
+
 class ViewPanel extends JPanel implements Observer {
 
 	/** The view frame. */

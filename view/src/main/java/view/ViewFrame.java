@@ -11,11 +11,7 @@ import javax.swing.JOptionPane;
 import contract.IController;
 import contract.IModel;
 
-/**
- * The Class ViewFrame.
- *
- * @author Jean-Aymeric Diet
- */
+
 class ViewFrame extends JFrame implements KeyListener {
 
 	/** The model. */
